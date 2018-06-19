@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-import",
+  "name": "@twc/eslint-plugin-import",
   "version": "3.0.0",
   "description": "Import with sanity.",
   "engines": {
@@ -24,25 +24,12 @@
     "prepublish": "gulp prepublish",
     "coveralls": "nyc report --reporter lcovonly && cat ./coverage/lcov.info | coveralls"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benmosher/eslint-plugin-import"
+  "repository": "TheWeatherCompany/eslint-plugin-import",
+  "author": "TWC Web Development <TWCiWebDevelopment@weather.com>",
+  "publishConfig": {
+    "registry": "https://repo.artifacts.weather.com/api/npm/web-decoupling-npm"
   },
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "es6",
-    "jsnext",
-    "modules",
-    "import",
-    "export"
-  ],
-  "author": "Ben Mosher <me@benmosher.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benmosher/eslint-plugin-import/issues"
-  },
-  "homepage": "https://github.com/benmosher/eslint-plugin-import",
   "devDependencies": {
     "babel-eslint": "8.0.x",
     "babel-plugin-istanbul": "^4.1.6",
