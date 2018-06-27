@@ -1,6 +1,6 @@
 {
   "name": "@twc/eslint-plugin-import",
-  "version": "3.0.0",
+  "version": "2.15.0",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"
